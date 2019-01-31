@@ -25,9 +25,13 @@ string starC(int width, int height)
   result += "\n";
 
   //column height
-  for (int col=1; col <= (height - 2); col++)
-	result += "* \n";
-
+  for (int col=1; col <= (height - 2); col++) 
+  {
+	result += "*";
+  	for (int row = 1; row <= width/2; row++)
+		result+= " ";
+	result += "\n";
+  }
   //final width row
   for (int row=1; row<=width; row++)
 	result += "*";
