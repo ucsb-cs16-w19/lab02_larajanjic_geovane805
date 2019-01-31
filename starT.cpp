@@ -15,7 +15,7 @@ void runTests(void);
 string starT(int width, int height)
 {
   string result="";
-  if((width%2==0) || height < 2)
+  if((width%2==0) || height < 2 || width < 3)
   	return result; // return without printing anything
   
   //width row
