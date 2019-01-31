@@ -28,7 +28,7 @@ string starC(int width, int height)
   for (int col=1; col <= (height - 2); col++) 
   {
 	result += "*";
-  	for (int row = 1; row <= width/2; row++)
+  	for (int row = 1; row <= width - 1; row++)
 		result+= " ";
 	result += "\n";
   }
