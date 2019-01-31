@@ -27,7 +27,10 @@ string starT(int width, int height)
   { 
 	for(int row=1; row<(width+1)/2;row++)
 		result+= " "; 
-	result +="* \n ";
+	result +="*";
+	for (int row=1; row<(width+1)/2;row++)
+		result+= " ";
+	result+="\n";
   }
   return result;
 }
