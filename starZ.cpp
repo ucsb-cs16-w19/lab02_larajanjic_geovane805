@@ -29,8 +29,7 @@ string starZ(int width)
 	result += "\n";
   	for (int col = 1; col <= row - 2; col++)
 		result += " ";
-		
-	result += "*";
+	result += "* ";
 	
   }
   
