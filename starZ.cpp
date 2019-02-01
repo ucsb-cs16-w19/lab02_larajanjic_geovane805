@@ -33,7 +33,7 @@ string starZ(int width)
 	
   }
   
-  for (int i = 1; i <= width - 2; i++)
+  for (int i = 1; i < width - 2; i++)
 	  result += " ";
   result += "\n";
   //bottom Z row
