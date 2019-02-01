@@ -29,10 +29,14 @@ string starZ(int width)
 	result += "\n";
   	for (int col = 1; col <= row - 2; col++)
 		result += " ";
-	result += "* ";
+		
+	result += "*";
 	
   }
-  result += " \n";
+  
+  for (int i = 1; i <= width - 2; i++)
+	  result += " ";
+  result += "\n";
   //bottom Z row
   for (int row = 1; row <= width; row++)
 	result += "*";
