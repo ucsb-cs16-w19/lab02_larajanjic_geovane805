@@ -22,16 +22,17 @@ string starZ(int width)
   // top Z row
   for (int row = 1; row <= width; row++) 
 	result += "*";
-  result += "\n";
 
   // Diagonal
   for (int row = width; row > 2; row--) 
   {
+	result += "\n";
   	for (int col = 1; col <= row - 2; col++)
 		result += " ";
-	result += "* \n";
+	result += "* ";
 	
   }
+  result += "\n";
   //bottom Z row
   for (int row = 1; row <= width; row++)
 	result += "*";
